@@ -20,3 +20,4 @@ An implementation to visit all indexes in a grid as a radial search to compress 
 
 * Compressed it from a O(N^2) to an O(N) approach but it requires to not have too many branches as in some languages it could lead to generating too many threads.
 * Requires geolocation mapping to a decently sized grid to not overload it with the asynchornous functions whihc may lead to memory leaks and overutilizing resources.
+* Extend the usage of this algorithm to moderate sized batch wise asynchronous compuations.
