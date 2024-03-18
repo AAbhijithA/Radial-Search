@@ -138,7 +138,7 @@ async function RadialSearch(){
     var centre = document.getElementById(mi.toString() + "-" + mj.toString());
     centre.style.backgroundColor = '#A0153E';
 
-    //Starting the asynchronous function calls for the color change and 
+    //Starting the asynchronous function calls for the discovery of nodes
     DiagonalLeftUp(mi-1,mj-1,n);
     Left(mi,mj-1,n);
     DiagonalLeftDown(mi+1,mj-1,n);
