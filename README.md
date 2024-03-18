@@ -1,5 +1,5 @@
 # Radial-Search
-An implementation to visit all indexes in a grid as a radial search to compress the visit time from O(N^2) to O(N) using asynchronous functions and finding independent path of traversal. In many systems locations are kept in grid formats to aid in easier computation and doing batch wise or logistics wise computation. Hence finding necessary resources from a radial point becomes very important and can be done by finding independent paths whithin the network of the grid as shown below.
+An implementation to visit all indexes in a grid as a radial search to compress the visit time from O(N^2) to O(N) using asynchronous functions and finding independent path of traversal. In many systems locations are kept in grid formats to aid in easier computation and doing batch wise or logistics wise computation. Hence finding necessary resources from a radial point becomes very important and can be done by finding independent paths whithin the the Grid of dimentions [N x N] as shown below.
 - - - -
 ### Working of Implementation
 
@@ -14,7 +14,7 @@ An implementation to visit all indexes in a grid as a radial search to compress 
 
 ![](RSImages/RadialSearch.gif)
 
-***(Give the dimension of the grid to construct a Grid of dimensions N x N grid and it branches out visiting nodes from the centre)*** 
+***(Give the dimension of the grid to construct a Grid of dimensions [N x N] and it branches out visiting nodes from the centre)*** 
 - - - -
 #### Understandings
 
