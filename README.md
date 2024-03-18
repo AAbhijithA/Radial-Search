@@ -15,3 +15,8 @@ An implementation to visit all indexes in a grid as a radial search to compress 
 ![](RSImages/RadialSearch.gif)
 
 ***(Give the dimension of the grid to construct a Grid of dimensions N x N grid and it branches out visiting nodes from the centre)*** 
+- - - -
+#### Understandings
+
+* Compressed it from a O(N^2) to an O(N) approach but it requires to not have too many branches as in some languages it could lead to generating too many threads.
+* Requires geolocation mapping to a decently sized grid to not overload it with the asynchornous functions whihc may lead to memory leaks and overutilizing resources.
