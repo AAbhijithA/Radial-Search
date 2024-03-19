@@ -1,7 +1,6 @@
 # Radial-Search
 
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-
 An implementation to visit all indexes in a grid as a radial search to compress the visit time from O(N^2) to O(N) using asynchronous functions and finding independent path of traversal. In many systems locations are kept in grid formats to aid in easier computation and doing batch wise or logistics wise computation. Hence finding necessary resources from a radial point becomes very important and can be done by finding independent paths whithin the the Grid of dimensions [N x N] as shown below.
 - - - -
 ### Working of Implementation
@@ -24,3 +23,6 @@ An implementation to visit all indexes in a grid as a radial search to compress 
 * Compressed it from a O(N^2) to an O(N) approach but it requires to not have too many branches as in some languages it could lead to generating too many threads.
 * Requires geolocation mapping to a decently sized grid to not overload it with the asynchronous functions which may lead to memory leaks and overutilizing resources.
 * Extend the usage of this algorithm to moderate sized batch wise and map a function to find solutions from the nearest visited cells.
+- - - -
+#### Deployment
+[Link to the Deployed Page](https://aabhijitha.github.io/Radial-Search/Grid.html)
